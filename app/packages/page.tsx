@@ -1,6 +1,5 @@
 import Beam from "@/components/Beam/Beam";
 import { Container } from "@/components/Container";
-import { CallToAction } from "@/components/CTA";
 import { Products } from "@/components/Products";
 import { Testimonial } from "@/components/Testimonial";
 import { testimonials } from "constants/testimonials";
@@ -90,10 +89,7 @@ const Pricing: NextPage = () => {
 
       <Testimonial testimonial={testimonials[0]} />
 
-      <CallToAction
-        headerText={`Want a custom website or more features? Talk to us.`}
-        bodyText={`See the blue chat box and the bottom? Click on it and talk to us. We will get back to you within 24 hours. Or just email us, just talk. :)`}
-      />
+      
     </Container>
   );
 };
