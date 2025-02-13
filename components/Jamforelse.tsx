@@ -43,7 +43,7 @@ export default function JamforelsePage() {
     <div className="min-h-screen  py-10">
     
 
-      <ComparisonGrid items={comparisonData} pros={prosList} cons={consList} bestFeatures={bestFeatures} />
+      <ComparisonGrid    />
     </div>
   );
 }
