@@ -1,8 +1,5 @@
 import React from "react";
-import { MdOutlineDesignServices } from "react-icons/md";
-import { CgWebsite } from "react-icons/cg";
-import { IoIosPeople } from "react-icons/io";
-import { Target, Car, Smartphone, Search } from "lucide-react";
+import { Target, Smartphone, Search } from "lucide-react";
 const HeroFeatures = () => {
   return (
     <div className=" w-full relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto mb-20 px-2 md:px-8">

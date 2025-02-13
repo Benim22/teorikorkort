@@ -1,5 +1,4 @@
 import clsx from "clsx";
-import LogoMain from "icons/logo";
 import { CarFront } from "lucide-react";
 import Link from "next/link";
 import React from "react";

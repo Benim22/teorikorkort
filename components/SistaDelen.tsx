@@ -1,9 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence, useMotionTemplate, useMotionValue } from "framer-motion";
-import { Star, CheckCircle, Timer, Gift } from "lucide-react";
-import { GridPattern } from "./GridPattern";
+import { motion, AnimatePresence, } from "framer-motion";
+import { Gift } from "lucide-react";
 
 const reviews = [
   { text: "Den bästa körkortsappen – klarade provet direkt!", author: "Anna, 22" },
@@ -24,7 +23,7 @@ export const Services = () => {
 
   return (
     <div id="sistadelen" className="relative bg-white text-gray-900 py-20 px-8 text-center rounded-2xl shadow-lg mx-auto max-w-6xl">
-      <GridPattern />
+      
       <h2 className="text-4xl font-extrabold text-purple-600">🚀 Redo att klara teoriprovet?</h2>
       <p className="mt-5 text-lg max-w-3xl mx-auto">
         Körkort AI har visat sig vara den smartaste vägen till körkortet. Testa appen idag och gör teorin enklare än någonsin!

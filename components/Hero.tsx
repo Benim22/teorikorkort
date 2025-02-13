@@ -1,4 +1,3 @@
-import LogoMain from "icons/logo";
 import React from "react";
 import { Car } from "lucide-react"
 

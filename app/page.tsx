@@ -4,7 +4,6 @@ import { Products } from "@/components/Products";
 import { Services } from "@/components/SistaDelen";
 import { Testimonial } from "@/components/Testimonial";
 import { testimonials } from "constants/testimonials";
-import type { NextPage } from "next";
 
 export default function Home() {
   return (

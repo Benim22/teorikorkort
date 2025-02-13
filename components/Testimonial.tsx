@@ -1,6 +1,4 @@
-import Image from "next/image";
 import React from "react";
-import { BlurImage } from "./BlurImage";
 
 export const Testimonial = ({ testimonial }: any) => {
   return (
@@ -15,12 +13,7 @@ export const Testimonial = ({ testimonial }: any) => {
       ></div>
       <div className="relative flex flex-col items-center">
         <div className="rounded-full relative inline-block h-14 w-14  border-2 border-white shadow overflow-hidden mb-8">
-          <BlurImage
-            src={testimonial.image}
-            layout="fill"
-            className="inline-block"
-            alt={testimonial.name}
-          />
+          
         </div>
         <span className="mb-3">⭐⭐⭐⭐⭐</span>
         <blockquote className="max-w-4xl mx-auto text-sm md:text-2xl text-center !leading-9 text-slate-700 mb-8">
